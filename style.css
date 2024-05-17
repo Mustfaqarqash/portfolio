@@ -612,11 +612,8 @@ footer p {
     }
 
     .main {
-<<<<<<< HEAD
         padding-top: 40px;
-=======
         padding-top: 60px;
->>>>>>> bb7e288a467b4d890cebdb6557919626d6d55f3a
         flex-direction: column;
         text-align: center;
 
@@ -692,7 +689,6 @@ footer p {
         padding: 15px;
         text-align: center;
     }
-<<<<<<< HEAD
 
     .container-skills {
         grid-template-columns: 1fr;
@@ -741,6 +737,3 @@ footer p {
         font-size: 0.8em;
     }
 }
-=======
-}
->>>>>>> bb7e288a467b4d890cebdb6557919626d6d55f3a
