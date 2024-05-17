@@ -356,8 +356,11 @@ footer p {
     }
 
     .main {
+        padding-top: 35px;
         flex-direction: column;
         text-align: center;
+        width: 100%;
+        margin: 0;
     }
 
     .main img {
