@@ -46,6 +46,11 @@ section {
     padding: 100px 200px;
 }
 
+.vedio {
+    min-width: 100%;
+    position: absolute;
+}
+
 .main {
     width: 100%;
     min-height: 100vh;
@@ -53,9 +58,8 @@ section {
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #000016;
-    background-image: url("images/background.png");
-    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 250px;
     background-attachment: fixed;
 }
 
