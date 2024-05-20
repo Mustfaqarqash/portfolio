@@ -47,8 +47,10 @@ section {
 }
 
 .vedio {
-    min-width: 100%;
+    width: 100%;
     position: absolute;
+   
+    
 }
 
 .main {
@@ -59,7 +61,7 @@ section {
     flex-direction: row;
     justify-content: space-around;
     position: relative;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 .main h2 {
@@ -182,6 +184,8 @@ hr {
     padding-bottom: 12px;
     border-bottom: 1px solid #ddd;
 }
+
+
 
 /* ---------------------------------------- */
 .skills {
@@ -388,9 +392,8 @@ hr {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 20px;
-    text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
-    text-wrap: pretty;
+    text-align: center;
 }
 
 .card:hover {
@@ -522,6 +525,13 @@ footer p {
 
 /* Responsive breakpoints */
 @media (max-width: 1300px) {
+    .main{
+        background-image: url("images/background.png");
+        background-color: #000016;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
     header {
         padding: 10px 50px;
     }
@@ -534,6 +544,7 @@ footer p {
         width: 350px;
         height: 500px;
     }
+    
 }
 
 @media (max-width: 900px) {
@@ -542,7 +553,13 @@ footer p {
         padding-left: 5px;
         padding-right: 5px;
     }
-
+    .main{
+        background-image: url("images/background.png");
+        background-color: #000016;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
     .main h2 {
         font-size: 1.1em;
     }
@@ -591,6 +608,10 @@ footer p {
     .container-skills {
         grid-template-columns: repeat(2, 1fr);
     }
+    .description .description-text {
+        width: 100%; /* Set width to 100% for full width */
+        text-align: left; /* Center text */
+    }
 }
 
 @media (max-width: 600px) {
@@ -613,7 +634,13 @@ footer p {
         align-content: center;
 
     }
-
+    .main{
+        background-image: url("images/background.png");
+        background-color: #000016;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
     .main {
         padding-top: 40px;
         padding-top: 60px;
@@ -696,6 +723,10 @@ footer p {
     .container-skills {
         grid-template-columns: 1fr;
     }
+    .description .description-text {
+        width: 100%; /* Set width to 100% for full width */
+        text-align: left; /* Center text */
+    }
 }
 
 @media (max-width: 400px) {
@@ -706,7 +737,13 @@ footer p {
     section {
         padding: 20px;
     }
-
+    .main{
+        background-image: url("images/background.png");
+        background-color: #000016;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
     .main h2 span {
         font-size: 1.5em;
     }
@@ -731,7 +768,10 @@ footer p {
         width: 150px;
         height: 200px;
     }
-
+    .description .description-text {
+        width: 100%; /* Set width to 100% for full width */
+        text-align: left; /* Center text */
+    }
     .project-title {
         font-size: 1em;
     }
