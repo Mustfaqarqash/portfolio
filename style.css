@@ -620,11 +620,7 @@ footer p {
 
     }
 
-    .main {
-        background-image: url("images/background.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+    
 
     .main img {
         width: 200px;
@@ -726,9 +722,6 @@ footer p {
 
     .main {
         background-color: #0d1b2a;
-        background-image: url("images/background.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
     }
 
     .main h2 span {
