@@ -121,6 +121,7 @@ video {
     align-items: center;
     text-align: left;
     flex-wrap: wrap;
+    margin-top:100px;
 }
 
 .about h2 {
